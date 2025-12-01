@@ -1,0 +1,16 @@
+# Múltiples señales
+tiempo = np.linspace(0, 10, 100)
+señal1 = np.sin(tiempo)
+señal2 = np.cos(tiempo)
+señal3 = np.sin(2 * tiempo)
+
+plt.figure(figsize=(12, 6))
+plt.plot(tiempo, señal1, label='sin(t)')
+plt.plot(tiempo, señal2, label='cos(t)')
+plt.plot(tiempo, señal3, label='sin(2t)')
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud')
+plt.title('Comparación de Señales')
+plt.legend()
+plt.grid(True)
+plt.show()

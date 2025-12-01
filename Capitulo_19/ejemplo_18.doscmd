@@ -1,0 +1,18 @@
+# 1. Ver estado de archivos
+git status
+
+# 2. Agregar archivos al staging area
+git add archivo.py           # Agregar archivo específico
+git add .                    # Agregar todos los archivos
+
+# 3. Hacer commit (guardar cambios)
+git commit -m "Mensaje descriptivo del cambio"
+
+# 4. Ver historial de commits
+git log
+git log --oneline           # Versión compacta
+git log --graph             # Con gráfico de ramas
+
+# 5. Ver diferencias
+git diff                    # Cambios no staged
+git diff --staged           # Cambios staged

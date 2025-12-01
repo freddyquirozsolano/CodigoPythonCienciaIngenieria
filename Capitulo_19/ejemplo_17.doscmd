@@ -1,0 +1,6 @@
+# Crear nuevo repositorio
+cd mi_proyecto
+git init
+
+# O clonar uno existente
+git clone https://github.com/usuario/proyecto.git

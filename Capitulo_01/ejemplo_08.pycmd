@@ -1,0 +1,5 @@
+# Linea de comandos de Python (interactivo) seguido de resultados
+>>> bytes_totales = 1024 ** 3  # 1 GB en bytes
+>>> megabytes = bytes_totales / (1024 ** 2)
+>>> print(f"1 GB = {megabytes:.0f} MB")
+1 GB = 1024 MB

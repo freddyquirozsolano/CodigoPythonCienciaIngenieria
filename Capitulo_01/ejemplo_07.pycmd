@@ -1,0 +1,6 @@
+# Linea de comandos de Python (interactivo) seguido de resultados
+>>> import math
+>>> angulo_grados = 90
+>>> angulo_radianes = angulo_grados * math.pi / 180
+>>> print(f"90° = {angulo_radianes:.4f} radianes")
+90° = 1.5708 radianes

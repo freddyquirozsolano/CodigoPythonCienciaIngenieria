@@ -1,0 +1,16 @@
+# Linea de comandos de Python (interactivo) seguido de resultados
+
+>>> 2 + 2
+4
+
+>>> 10 * 5
+50
+
+>>> 100 / 4
+25.0
+
+>>> 2 ** 3  # Potencia: 2 elevado a 3
+8
+
+>>> 17 % 5  # Módulo: resto de la división
+2

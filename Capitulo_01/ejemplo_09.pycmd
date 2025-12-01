@@ -1,0 +1,6 @@
+# Linea de comandos de Python (interactivo) seguido de resultados
+>>> masa = 50  # kg
+>>> aceleracion = 9.8  # m/s²
+>>> fuerza = masa * aceleracion
+>>> print(f"Fuerza: {fuerza:.2f} N")
+Fuerza: 490.00 N

@@ -1,0 +1,1 @@
+"""Representa un paciente en el sistema"""

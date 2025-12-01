@@ -1,0 +1,14 @@
+# Ver repositorios remotos
+git remote -v
+
+# Agregar remoto
+git remote add origin https://github.com/usuario/proyecto.git
+
+# Subir cambios
+git push origin main
+
+# Bajar cambios
+git pull origin main
+
+# Descargar sin fusionar
+git fetch origin

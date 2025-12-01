@@ -1,0 +1,19 @@
+# En Windows
+# Crear entorno virtual llamado "venv"
+python -m venv venv
+
+# Activar el entorno virtual
+venv\Scripts\activate
+
+# Desactivar el entorno
+deactivate
+
+# En macOS/Linux
+# Crear entorno virtual
+python3 -m venv venv
+
+# Activar el entorno virtual
+source venv/bin/activate
+
+# Desactivar
+deactivate

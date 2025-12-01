@@ -1,0 +1,28 @@
+# Ver versión de pip
+pip --version
+
+# Instalar un paquete
+pip install numpy
+pip install pandas matplotlib
+
+# Instalar versión específica
+pip install numpy==1.24.0
+pip install pandas>=1.5.0
+
+# Ver paquetes instalados
+pip list
+
+# Ver información de un paquete
+pip show numpy
+
+# Actualizar un paquete
+pip install --upgrade numpy
+
+# Desinstalar un paquete
+pip uninstall numpy
+
+# Instalar desde archivo requirements.txt
+pip install -r requirements.txt
+
+# Crear archivo requirements.txt con paquetes instalados
+pip freeze > requirements.txt

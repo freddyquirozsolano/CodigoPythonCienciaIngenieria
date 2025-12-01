@@ -1,0 +1,6 @@
+# Linea de comandos de Python (interactivo) seguido de resultados
+>>> peso = 70  # kg
+>>> altura = 1.75  # metros
+>>> imc = peso / (altura ** 2)
+>>> print(f"IMC: {imc:.2f}")
+IMC: 22.86
